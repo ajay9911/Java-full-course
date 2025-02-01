@@ -1,4 +1,4 @@
-package ricursion;
+package ricursion.demo;
 
 public class RecursionDemo {
 

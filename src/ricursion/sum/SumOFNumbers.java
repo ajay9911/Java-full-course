@@ -1,4 +1,4 @@
-package ricursion;
+package ricursion.sum;
 
 public class SumOFNumbers {
     public static void main(String[] args) {
