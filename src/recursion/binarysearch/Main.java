@@ -1,4 +1,4 @@
-package ricursion.binarysearch;
+package recursion.binarysearch;
 
 public class Main {
 

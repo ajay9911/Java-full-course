@@ -1,4 +1,4 @@
-package ricursion.fibonacci;
+package recursion.fibonacci;
 
 public class Main {
 

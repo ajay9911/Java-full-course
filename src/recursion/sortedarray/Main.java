@@ -1,4 +1,4 @@
-package ricursion.sortedarray;
+package recursion.sortedarray;
 
 public class Main {
     public static void main(String[] args) {

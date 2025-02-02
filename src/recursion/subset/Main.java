@@ -1,4 +1,4 @@
-package ricursion.subset;
+package recursion.subset;
 
 import java.util.ArrayList;
 import java.util.Arrays;
