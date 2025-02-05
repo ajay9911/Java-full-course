@@ -11,18 +11,24 @@ public class Matrix {
                 {13, 14, 15, 16}
         };
 
-        System.out.println("4×4 Matrix:");
-//        printMatrix(matrix);so
-        System.out.println(Arrays.toString(matrix[1]));
+//        System.out.println("4×4 Matrix:");
+        int i = 0, j = matrix[0].length - 1, target = 16;
+
+        // Keep going until we are out of bounds in either direction
+        while (i < matrix.length && j >= 0) {
+            if (matrix[i][j] == target) {
+                System.out.println("Target Found at " + i + "," + j);
+               break;
+            }
+            if (matrix[i][j] > target) {
+                j--;  // Move left if the current element is greater than the target
+            } else {
+                i++;  // Move down if the current element is smaller than the target
+            }
+        }
+
+        System.out.println("Target not found.");
+    }
     }
 
-    static void printMatrix(int[][] matrix) {
-        for (int[] row : matrix) {
-            for (int num : row) {
-                System.out.print(num + "\t");
-            }
-            System.out.println();
-        }
-    }
-}
 
