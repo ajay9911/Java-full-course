@@ -13,9 +13,12 @@ public class LinkedListDemo{
         for (String s : al) {
             System.out.println(s);
         }
-        System.out.println(al.pop());
-        System.out.println(al);
+//        System.out.println(al.pop());
+//        System.out.println(al);
         System.out.println(al.lastIndexOf("Ajay"));
+        System.out.println(al.get(1));
+        System.out.println(al.getFirst());
+        System.out.println(al.getLast());
     }
 
 }
